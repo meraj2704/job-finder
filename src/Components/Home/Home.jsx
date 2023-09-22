@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
+import HomeHeadLine from '../HomeHeadLine/HomeHeadLine';
 
 const Home = () => {
     return (
         <div>
-            <h1>home</h1>
+            <HomeHeadLine></HomeHeadLine>
         </div>
     );
 };
