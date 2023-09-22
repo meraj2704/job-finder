@@ -7,6 +7,10 @@ const Home = () => {
     return (
         <div>
             <HomeHeadLine></HomeHeadLine>
+            <section className='mt-32'>
+                <h1 className='text-center '>Job Category List</h1>
+                <p className='text-center'>Select your dream field for you successful Career.</p>
+            </section>
         </div>
     );
 };
