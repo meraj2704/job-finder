@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text-style{
+    /* font-family: 'Oswald', sans-serif; */
+font-family: 'Poppins', sans-serif;
+/* font-family: 'Raleway', sans-serif; */
+}
+.btn{
+ padding-left:10px;
+ padding-right:10px;
+ padding-top:5px;
+ padding-bottom:5px;
+ border: 1px solid green;
+ border-radius: 15px;
+ background-color: #15c715;
+ color:white;
+ transition: transform 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.h1{
+    font-size: 1.875rem; 
+line-height: 2.25rem;
+}
