@@ -43,11 +43,11 @@ const Home = () => {
                         <h1 className='text-xl font-extrabold'>Engineering Job</h1>
                         <p className='text-[#A3A3A3] '>224 Jobs Available</p>
                     </div>
-                    
+
                 </div>
             </section>
             <section>
-
+                <h1>Jobs</h1>
             </section>
         </div>
     );
