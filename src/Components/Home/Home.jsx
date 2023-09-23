@@ -72,7 +72,7 @@ const Home = () => {
                 <h1 className='text-5xl font-extrabold text-center mt-32 mb-5'>Jobs</h1>
                 <p className='text-center text-[#A3A3A3]'>Thsi place is right for you. If you searching your dream job.</p>
                 <JobsContext.Provider value={[appliedJobs, setAppliedJobs]}>
-                    <div>
+                    <div className='grid grid-cols-2 justify-items-center items-center justify-evenly gap-y-5 mt-9'>
                         {
                             forShowJob.map(job => <JobCart
                                 key={job.id}
@@ -81,7 +81,7 @@ const Home = () => {
                         }
                     </div>
                 </JobsContext.Provider>
-                <div className='flex justify-center items-center h-screen'>
+                <div className='flex justify-center items-center mt-10'>
                     <button onClick={() => handleShowJobs(true)} className='btn px-6'>See All</button>
                 </div>
             </section>
