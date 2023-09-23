@@ -8,31 +8,21 @@ import marketing from '../../assets/social-media.png';
 import engineering from '../../assets/chip.png';
 import JobCart from '../JobCart';
 import { createContext } from 'react';
+import Footer from '../Footer/Footer';
 export const JobsContext = createContext([])
 
 const Home = () => {
     const jobs = useLoaderData();
 
     const [appliedJobs, setAppliedJobs] = useState([]);
-    let showAll = false;
-    let forShowJob;
-    const handleShowJobs = (showAll) => {
-        if (all) {
-            showAll = true;
-        }
-
-    }
-    
-    if (showAll) {
-        forShowJob = jobs;
-        console.log(showAll);
-    }
-    else {
-        forShowJob = jobs.slice(0, 4);
+    const [showAll,setShowAll] = useState(false);
+    const handleShowJobs =()=>{
+        setShowAll(!showAll);
     }
     return (
         <div>
             <HomeHeadLine></HomeHeadLine>
+            <div className="container mx-auto mb-32">
             <section className='mt-32 '>
                 <h1 className='text-center text-5xl font-extrabold mb-5'>Job Category List</h1>
                 <p className='text-center text-[#A3A3A3]'>Select your dream field for you successful Career.</p>
@@ -68,23 +58,29 @@ const Home = () => {
 
                 </div>
             </section>
-            <section>
+            <section className='container max-w-[1024px] mx-auto'>
                 <h1 className='text-5xl font-extrabold text-center mt-32 mb-5'>Jobs</h1>
-                <p className='text-center text-[#A3A3A3]'>Thsi place is right for you. If you searching your dream job.</p>
+                <p className='text-center text-[#A3A3A3]'>This place is right for you. If you searching your dream job.</p>
                 <JobsContext.Provider value={[appliedJobs, setAppliedJobs]}>
-                    <div className='grid grid-cols-2 justify-items-center items-center justify-evenly gap-y-5 mt-9'>
-                        {
-                            forShowJob.map(job => <JobCart
+                    <div className='grid grid-cols-2 justify-items-center  gap-5 mt-9'>
+                        {showAll?
+                            jobs.map(job => <JobCart
                                 key={job.id}
                                 job={job}
+                            ></JobCart>)
+                            : jobs.slice(0,4).map(job => <JobCart
+                            key={job.id}
+                            job={job}
                             ></JobCart>)
                         }
                     </div>
                 </JobsContext.Provider>
-                <div className='flex justify-center items-center mt-10'>
-                    <button onClick={() => handleShowJobs(true)} className='btn px-6'>See All</button>
+                <div className={`${showAll? 'invisible':'visible' } flex justify-center items-center mt-10`}>
+                    <button onClick={() => handleShowJobs(true)} className='btn px-6 '>See All</button>
                 </div>
             </section>
+            </div>
+            <Footer></Footer>
         </div>
     );
 };

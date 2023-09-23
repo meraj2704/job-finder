@@ -15,7 +15,7 @@ font-family: 'Poppins', sans-serif;
  padding-right:10px;
  padding-top:5px;
  padding-bottom:5px;
- border: 1px solid green;
+ /* border: 1px solid green; */
  border-radius: 15px;
  background-color: #15c715;
  color:white;
@@ -33,4 +33,7 @@ line-height: 2.25rem;
 }
 .bg2{
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+}
+.bg3{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.20) 0%, rgba(152, 115, 255, 0.20) 100%);
 }

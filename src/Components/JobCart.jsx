@@ -9,7 +9,7 @@ const JobCart = ({ job }) => {
     const { image, jobName, company, type, time, location, salary, details } = job;
     return (
             <div className='border border-solid border-[#828282] p-10 w-[400px] h-[400px] rounded-xl'>
-                <img className='mb-9 h-10' src={image} alt="" />
+                <img className='mb-9 h-10 object-cover w-[120px]' src={image} alt="" />
                 <h1 className='text-2xl font-extrabold '>{jobName}</h1>
                 <p className='mb-2'>{company}</p>
                 <div className='mb-4'>
