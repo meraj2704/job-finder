@@ -1,9 +1,15 @@
 import React from 'react';
+import PageBanner from '../PageBanner/PageBanner';
+import Footer from '../Footer/Footer';
 
 const Blog = () => {
+    const pageName = 'Blogs'
     return (
         <div>
-            <h1>Blog</h1>
+           <PageBanner
+           pageName={pageName}
+           ></PageBanner>
+           <Footer></Footer>
         </div>
     );
 };
