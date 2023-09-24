@@ -37,3 +37,6 @@ line-height: 2.25rem;
 .bg3{
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.20) 0%, rgba(152, 115, 255, 0.20) 100%);
 }
+.bg4{
+background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+}
