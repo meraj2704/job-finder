@@ -76,7 +76,7 @@ const Home = () => {
                     </div>
                 </JobsContext.Provider>
                 <div className={`${showAll? 'invisible':'visible' } flex justify-center items-center mt-10`}>
-                    <button onClick={() => handleShowJobs(true)} className='btn px-6 '>See All</button>
+                    <button onClick={() => handleShowJobs(true)} className='btnn px-6 '>See All</button>
                 </div>
             </section>
             </div>

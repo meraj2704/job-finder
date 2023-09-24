@@ -10,7 +10,7 @@
 font-family: 'Poppins', sans-serif;
 /* font-family: 'Raleway', sans-serif; */
 }
-.btn{
+.btnn{
  padding-left:10px;
  padding-right:10px;
  padding-top:5px;
@@ -21,7 +21,7 @@ font-family: 'Poppins', sans-serif;
  color:white;
  transition: transform 0.3s ease;
 }
-.btn:hover{
+.btnn:hover{
     transform: scale(1.1);
 }
 .h1{

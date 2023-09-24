@@ -59,7 +59,7 @@ const JobDetails = () => {
                             <span className='font-bold'>Address:</span> {phone}</p>
                     </div>
                     <div>
-                        <button onClick={handleJob} className='btn w-full'>Apply Now</button>
+                        <button onClick={handleJob} className='btnn w-full'>Apply Now</button>
                     </div>
                 </div>
             </div>

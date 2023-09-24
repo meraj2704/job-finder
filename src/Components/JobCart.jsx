@@ -22,7 +22,7 @@ const JobCart = ({ job }) => {
 
 
             <div className=''>
-                <Link to={`/details/${id}`}><button className='btn mr-6'>View Details</button> </Link>
+                <Link to={`/details/${id}`}><button className='btnn mr-6'>View Details</button> </Link>
             </div>
 
         </div>

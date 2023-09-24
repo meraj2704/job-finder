@@ -9,6 +9,7 @@ const Statistics = () => {
             <PageBanner
             pageName={pageName}
             ></PageBanner>
+           
             <Footer></Footer>
         </div>
     );
