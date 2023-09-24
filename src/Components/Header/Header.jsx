@@ -22,7 +22,7 @@ const Header = () => {
                 </li>
             </div>
             <div>
-                <button className='btnn'>Apply Now</button>
+                <a href="#job12"><button  className='btnn'>Apply Now</button></a>
             </div>
         </div>
     );

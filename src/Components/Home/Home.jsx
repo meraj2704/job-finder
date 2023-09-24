@@ -58,7 +58,7 @@ const Home = () => {
 
                 </div>
             </section>
-            <section className='container max-w-[1024px] mx-auto'>
+            <section id='job12' className='container max-w-[1024px] mx-auto'>
                 <h1 className='text-5xl font-extrabold text-center mt-32 mb-5'>Jobs</h1>
                 <p className='text-center text-[#A3A3A3]'>This place is right for you. If you searching your dream job.</p>
                 <JobsContext.Provider value={[appliedJobs, setAppliedJobs]}>
