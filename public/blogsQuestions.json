@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What is HTML?",
+    "answer": "HTML stands for HyperText Markup Language. It is used to structure content on the web, providing a way to describe the meaning of text and other elements on a web page."
+  },
+  {
+    "id": 2,
+    "question": "What is CSS?",
+    "answer": "CSS stands for Cascading Style Sheets. It is used for describing the presentation of a web page written in HTML. CSS separates the content from its presentation."
+  },
+  {
+    "id": 3,
+    "question": "What is JavaScript?",
+    "answer": "JavaScript is a high-level, interpreted programming language used to make web pages interactive and dynamic. It can be used for client-side and server-side development."
+  },
+  {
+    "id": 4,
+    "question": "What is responsive web design?",
+    "answer": "Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It ensures a consistent user experience across different platforms."
+  },
+  {
+    "id": 5,
+    "question": "What is a CSS framework?",
+    "answer": "A CSS framework is a pre-prepared library that includes a set of standardized styles, layouts, and components to simplify web development. Examples include Bootstrap and Foundation."
+  },
+  {
+    "id": 6,
+    "question": "What is the Document Object Model (DOM)?",
+    "answer": "The Document Object Model is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content dynamically."
+  },
+  {
+    "id": 7,
+    "question": "What is a front-end framework?",
+    "answer": "A front-end framework is a pre-built collection of tools, libraries, and best practices for building user interfaces. Examples include React, Angular, and Vue.js."
+  },
+  {
+    "id": 8,
+    "question": "What is a web browser's developer console?",
+    "answer": "A web browser's developer console is a tool that allows developers to inspect and debug web pages. It provides access to the DOM, JavaScript debugging, and network activity."
+  },
+  {
+    "id": 9,
+    "question": "What is version control?",
+    "answer": "Version control is a system that records changes to files over time. It allows multiple people to work on a project simultaneously and track the history of changes."
+  },
+  {
+    "id": 10,
+    "question": "What is a responsive image?",
+    "answer": "A responsive image is an image that adjusts its size and resolution based on the screen size and device capabilities to ensure optimal display on different devices and resolutions."
+  }
+]

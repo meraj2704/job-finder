@@ -10,8 +10,8 @@ import DisplayApplied from '../DisplayApplied/DisplayApplied';
 const Applied = () => {
     const pageName = 'Applied Jobs';
     const jobs = useLoaderData();
-    const [newJobs, setNewJobs] = useState(jobs);
-    console.log(newJobs);
+    // const [newJobs, setNewJobs] = useState(jobs);
+    // console.log(newJobs);
     const [appliedJobs, setAppliedJobs] = useState([]);
     const [displayJobs, setDisplayJobs] = useState([]);
 
