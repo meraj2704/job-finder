@@ -9,6 +9,7 @@ import loc from '../../assets/Frame.png'
 import title from '../../assets/title.png'
 import call from '../../assets/call.png'
 import mail from '../../assets/email.png'
+import toast from 'react-hot-toast';
 
 const JobDetails = () => {
     const jobs = useLoaderData();
@@ -19,6 +20,7 @@ const JobDetails = () => {
     const pageName = 'Job Details';
     const handleJob = () => {
         saveJobApplication(intId);
+        toast.success('You successfully applied this job.')
     }
     // console.log(job);
     return (
